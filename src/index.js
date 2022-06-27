@@ -8,5 +8,5 @@ import Matrix from './Matrix.js'
 ReactDOM.render(<Matrix values={pattern1}/>, document.getElementById('root'));
 
 Matrix.defaultProps = {
-    values: {allRed}
+    values: allRed
   }

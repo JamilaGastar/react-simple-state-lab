@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Cell from './Cell';
+import { allRed } from './data';
 
 export default class Matrix extends Component {
   
@@ -23,5 +24,8 @@ export default class Matrix extends Component {
   
 }
 
+Matrix.defaultProps = {
+  values: allRed
+}
 
 
